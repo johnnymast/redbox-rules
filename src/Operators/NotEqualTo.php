@@ -4,6 +4,11 @@
 namespace Redbox\Rules\Operators;
 
 
-class NotEqualTo implements OperatorInterface {
+use Redbox\Rules\Context;
 
+class NotEqualTo implements OperatorInterface {
+    public function __construct(Context $context)
+    {
+
+    }
 }

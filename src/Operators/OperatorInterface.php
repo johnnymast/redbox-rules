@@ -3,6 +3,8 @@
 namespace Redbox\Rules\Operators;
 
 
-interface OperatorInterface {
+use Redbox\Rules\Context;
 
+interface OperatorInterface {
+    public function __construct(Context $context);
 }

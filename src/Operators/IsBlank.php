@@ -4,6 +4,11 @@
 namespace Redbox\Rules\Operators;
 
 
-class IsBlank implements OperatorInterface {
+use Redbox\Rules\Context;
 
+class IsBlank implements OperatorInterface {
+    public function __construct(Context $context)
+    {
+
+    }
 }
