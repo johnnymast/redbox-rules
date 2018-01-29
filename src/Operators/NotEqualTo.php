@@ -11,4 +11,7 @@ class NotEqualTo implements OperatorInterface {
     {
 
     }
+    public function operate() {
+        
+    }
 }

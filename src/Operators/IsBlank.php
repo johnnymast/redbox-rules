@@ -11,4 +11,7 @@ class IsBlank implements OperatorInterface {
     {
 
     }
+    public function operate() {
+        
+    }
 }

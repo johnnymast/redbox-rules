@@ -34,7 +34,12 @@ class Rule
         $this->set[] = $r;
     }
 
-
+    /**
+     * Undocumented function
+     *
+     * @param array $rules
+     * @return void
+     */
     public static function all($rules = [])
     {
         $instance = self::getInstance();
